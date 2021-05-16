@@ -2037,7 +2037,10 @@
 //
 // Note: Usually sold with a white PCB.
 //
-//#define REPRAP_DISCOUNT_SMART_CONTROLLER
+#define REPRAP_DISCOUNT_SMART_CONTROLLER
+#define SDSUPPORT
+#define LCD_WIDTH 20
+#define LCD_HEIGHT 4
 
 //
 // GT2560 (YHCB2004) LCD Display
@@ -2100,7 +2103,7 @@
 //
 // Generic 16x2, 16x4, 20x2, or 20x4 character-based LCD.
 //
-#define ULTRA_LCD
+//#define ULTRA_LCD
 
 //=============================================================================
 //======================== LCD / Controller Selection =========================
